@@ -2,12 +2,12 @@ export const features = [
     {
         id: '0',
         icon: '/images/feature-1.png',
-        caption: 'Easy integration',
-        title: 'Work smarter not harder',
-        text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+        caption: 'Aesthetic designs',
+        title: 'Simple is beauty',
+        text: "With Igbanye Ọkụ, poor graphic designs are history. Clean and ideal desgins bring your productivity to new heights. It's like having a fancy store but without the messy blocks.",
         button: {
             icon: '/images/magictouch.svg',
-            title: 'Watch the demo',
+            title: 'Work with us',
         },
     },
     {
@@ -15,7 +15,7 @@ export const features = [
         icon: '/images/feature-2.png',
         caption: 'Secure & trustworthy',
         title: 'Sleep easy, we got your back',
-        text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
+        text: 'Your design is our priority. Be it branding , social media designs or infographics, we always deliver.',
         button: {
             icon: '/images/docs.svg',
             title: 'Read the docs',
@@ -27,55 +27,55 @@ export const details = [
     {
         id: '0',
         icon: '/images/detail-1.png',
-        title: 'AI automated video editing',
+        title: 'Effective typography',
     },
     {
         id: '1',
         icon: '/images/detail-2.png',
-        title: 'Collaborate with your team',
+        title: 'Visual hierachy',
     },
     {
         id: '2',
         icon: '/images/detail-3.png',
-        title: 'Ultra fast cloud-engine',
+        title: 'Proper color palette',
     },
     {
         id: '3',
         icon: '/images/detail-4.png',
-        title: '24 / 7 Customer support',
+        title: 'limited revisions',
     },
 ];
 
 export const faq = [
     {
         id: '0',
-        question: 'How easy is it to setup Xora?',
+        question: 'Why incorporate graphic designs?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Why not! Graphic design has proven to be that most minimalistic, yet efficiently way of spreading information across. Effectively capture your potential audience with quality designs.',
     },
     {
         id: '1',
-        question: 'Can I integrate Xora with other platforms?',
+        question: 'Why pick Igbanye Ọkụ?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            "Experience, customer service! Having work with instituions such as Afe Babalola University Medical Student's Association and lot more. We've maintained a record of excellence in service.",
     },
     {
         id: '2',
-        question: 'How often do you add new content?',
+        question: "What's your design like?",
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Aesthetic! Designs at Igbanye Ọkụ implement quality design theories, making sure your brand can compete globally.',
     },
     {
         id: '3',
-        question: 'What your refund policy?',
+        question: 'How are customers request manage?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'We dicuss with clients, critically questioning their needs and laying out plans. Once satisfied with mockup, design is implemented within 3 working days. A limited revision ofthree times is provided upon need for correction. Once the limit has been surpassed a fee of 3000 is collected for each revision.',
     },
     {
         id: '4',
-        question: 'Do you have corporate plans?',
+        question: 'Do you offer discount for large deals?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Absolutely! Discount is given at a rate of 3% for more than five designs. Special offer for partnership deals are available for clients who wish to engage in long term deals to support business or association.',
     },
     {
         id: '5',
@@ -113,14 +113,20 @@ export const plans = [
     {
         id: '0',
         title: 'Core',
-        priceMonthly: 19,
-        priceYearly: 12,
-        caption: 'Best for solo creators',
-        features: [
-            '100MB Cloud storage',
-            '100+ prompt templates',
-            '5 projects',
-            '24/7 support',
+        priceMonthly: 10000,
+        priceYearly: 12000,
+        caption1: 'Promotional Design',
+        caption2: 'Advertising Design',
+        features1: [
+            'Engaging flyers to promote events, products, or services. (e.g campaign poster)',
+            'Custom layouts and creative typography.',
+            'Multi-purpose designs for offline and online marketing.',
+            'Up to 2 revisions included.'
+        ],
+        feature2: [
+            'Impactful designs for online and print advertisements.',
+            'Attention-grabbing layouts to drive engagement.',
+            'Up to 3 revisions included.'
         ],
         icon: '/images/circle.svg',
         logo: '/images/plan-1.png',
@@ -128,14 +134,22 @@ export const plans = [
     {
         id: '1',
         title: 'Overdrive',
-        priceMonthly: 79,
-        priceYearly: 59,
-        caption: 'Most popular plan',
-        features: [
-            'All Starter features',
-            '1TB additional storage',
-            'Unlimited projects',
-            'Analytics',
+        priceMonthly: 10000,
+        priceYearly: 15000,
+        caption1: 'Branding design',
+        caption2: 'Logo design',
+        features1: [
+            'Comprehensive visual identity for your brand.',
+            'Design of brand assets (business cards, letterheads, etc.).',
+            'Consistent color schemes, typography, and style guide.',
+            'Social media branding kits for online presence.',
+            'Up to 3 revisions included.'
+        ],
+        feature2: [
+            'Custom logos tailored to represent your brand’s identity and value',
+            'Unique concepts with multiple design variations.',
+            'Options for logo mockups on products or stationery.',
+            'Up to 3 revisions included.'
         ],
         icon: '/images/triangle.svg',
         logo: '/images/plan-2.png',
@@ -143,14 +157,20 @@ export const plans = [
     {
         id: '2',
         title: 'Team',
-        priceMonthly: 39,
-        priceYearly: 29,
-        caption: 'Exclusively for teams',
-        features: [
-            'All Overdrive features',
-            '10TB additional storage',
-            '50% off per member',
-            'Real-time collaboration',
+        priceMonthly: 7000,
+        priceYearly: 12000,
+        caption1: 'Infographics',
+        caption2: 'Banners and Thumbnails',
+        features1: [
+            'Eye-catching visuals to communicate complex ideas and data effectively.',
+            'Custom illustrations tailored to your content.',
+            'Mobile-optimized designs for sharing on social platforms.',
+            'Up to 2 revisions included.',
+        ],
+        feature2: [
+            'Professional banners and thumbnails for web, social media, and YouTube.',
+            'Custom sizes for websites, ads, or social platforms.',
+            'Up to 2 revisions included.'
         ],
         icon: '/images/hexagon.svg',
         logo: '/images/plan-3.png',
@@ -164,7 +184,7 @@ export const testimonials = [
         role: 'Globalnomads',
         avatarUrl: '/images/testimonials/jessica-saunders.png',
         comment:
-            "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+            "Igbanye Ọkụ customer support is second to none! They’re like my tech superheroes, always there when I need them.",
     },
     {
         id: '1',
@@ -196,7 +216,7 @@ export const testimonials = [
         role: 'Floclips',
         avatarUrl: '/images/testimonials/becky-snider.png',
         comment:
-            "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+            "Switched to Igbanye Ọkụ last month, and I'm already seeing results. Best decision for our team!",
     },
     {
         id: '5',
@@ -402,7 +422,7 @@ export const links = [
 ];
 
 export const socials = [
-    {
+    /*{
         id: '0',
         title: 'x',
         icon: '/images/socials/x.svg',
@@ -413,17 +433,17 @@ export const socials = [
         title: 'Threads',
         icon: '/images/socials/threads.svg',
         url: '#',
-    },
+    },*/
     {
         id: '2',
         title: 'Instagram',
         icon: '/images/socials/instagram.svg',
-        url: '#',
+        url: 'https://www.instagram.com/igbanyeoku?utm_source=qr&igsh=MTQZaHRkbGV2a3h0dA==',
     },
     {
         id: '3',
         title: 'Discord',
-        icon: '/images/socials/discord.svg',
-        url: '#',
+        icon: '/images/socials/pinterest.svg',
+        url: 'https://pin.it/61fVqV3SX',
     },
 ];

@@ -99,39 +99,39 @@
   /* END of Typography */
   /* START of Gradients */
   .g1 {
-    background: linear-gradient(rgba(196, 203, 245, 0.5), transparent);
+    background: linear-gradient(rgba(241, 196, 245, 0.5), transparent);
   }
 
   .g2 {
-    background: linear-gradient(#3062a3, #19549f);
+    background: linear-gradient(#a33081, #9f1962);
   }
 
   .g3 {
-    background: linear-gradient(#3c52d9, #0c1838);
+    background: linear-gradient(#903cd9, #380c23);
   }
 
   .g4 {
-    background: linear-gradient(#253575, #162561);
+    background: linear-gradient(#2a0b1e, #400f2e);
   }
 
   .g5 {
-    background: linear-gradient(#334679, #162561);
+    background: linear-gradient(#673379, #481661);
   }
 
   .g6 {
-    background: linear-gradient(#334679, #0c1838);
+    background: linear-gradient(#6e3379, #380c25);
   }
 
   .g7 {
-    background: linear-gradient(#1b275a, #0e1434);
+    background: linear-gradient(#3a1128, #340e23);
   }
 
   .g8 {
-    background: linear-gradient(to right, transparent, #2ef2ff, transparent);
+    background: linear-gradient(to right, transparent, #9a1789, transparent);
   }
 
   .g9 {
-    background: linear-gradient(#080d27, transparent);
+    background: linear-gradient(#240827, transparent);
   }
 
   /* END of Gradients */

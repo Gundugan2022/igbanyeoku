@@ -40,7 +40,7 @@ const Header = () => {
             hasScrolled && 'py-2 bg-black-100 backdrop-blur-[8px]')}>
         <div className="container flex h-14 items-center max-lg:px-5">
             <a className="lg:hidden flex-1 cursor-pointer z-2">
-                <img src="/images/xora.svg"
+                <img src="/images/logooku.svg"
                   width={115} height={55} alt="logo"
                 />
             </a>
@@ -65,7 +65,7 @@ const Header = () => {
                          spy smooth
                          className={clsx('max-lg:hidden transition-transform duration-500 cursor-pointer')}
                          >
-                             <img src="/images/xora.svg"
+                             <img src="/images/logooku.svg"
                                   alt="logo"
                                   width={160}
                                   height={55}/>

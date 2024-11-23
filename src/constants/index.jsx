@@ -146,7 +146,7 @@ export const plans = [
             'Up to 3 revisions included.'
         ],
         feature2: [
-            'Custom logos tailored to represent your brand’s identity and value',
+            'Custom logos tailored to represent your brand’s identity and value.',
             'Unique concepts with multiple design variations.',
             'Options for logo mockups on products or stationery.',
             'Up to 3 revisions included.'
